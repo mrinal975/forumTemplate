@@ -21,11 +21,11 @@
     </head>
     <body>
         <div id="app">
-        <example-component></example-component>
-        <sidebar-component></sidebar-component>
-        <router-link to="/foo">Foo</router-link>
-        <!-- <router-link to="/bar">Go to Bar</router-link> -->
-        <router-view></router-view>
+        <header-component></header-component>
+        <div class="columns">
+            <div class="column is-one-fifth"><sidebar-component></sidebar-component></div>
+            <div class="column"><router-view></router-view></div>
+        </div>
         </div>
     </body>
 </html>

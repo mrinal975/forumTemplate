@@ -1,6 +1,14 @@
 <template>
     <div class="container">
-    <h1>Sidebar</h1>
+        <ul class="menu-list">
+            <li><router-link to="/allThreads"><i class="fa fa-star-o" aria-hidden="true"></i> a All Threads</router-link></li>
+            <li><router-link to="/popularthisweek">Popular This Week</router-link></li>
+            <li><router-link to="/popularalltime">Popular All Time</router-link></li>
+            <li><router-link to="/solved">Solved</router-link></li>
+            <li><router-link to="/unsolved">Unsolved</router-link></li>
+            <li><router-link to="/noRepliesyet">No Replies Yet</router-link></li>
+            <li><router-link to="/leaderboard">Leaderboard</router-link></li>
+        </ul>    
     </div>
 </template>
 
