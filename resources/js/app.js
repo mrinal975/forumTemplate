@@ -17,7 +17,7 @@ let routes = [
     { path: "/noRepliesyet", component: require("./components/Body/NoRepliesyet-Component.vue").default, name:"noRepliesyet" },
     { path: "/leaderboard", component: require("./components/Body/leaderboard-Component.vue").default, name:"leaderboard" },
 ];
-
+Vue.component('filter-component', require('./components/Filter/Filter-Component.vue').default);
 Vue.component('header-component', require('./components/Header/HeaderComponent.vue').default);
 Vue.component('sidebar-component', require('./components/Sidebar/Sidebar.vue').default);
 

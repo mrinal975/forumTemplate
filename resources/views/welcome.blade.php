@@ -21,11 +21,18 @@
     </head>
     <body>
         <div id="app">
+        <i class="fa fa-star-o" aria-hidden="true"></i>
         <header-component></header-component>
-        <div class="columns">
-            <div class="column is-one-fifth"><sidebar-component></sidebar-component></div>
-            <div class="column"><router-view></router-view></div>
-        </div>
+        <div class="container">
+            <div class="columns" style="margin-top:0px !important;">
+                <div class="column is-one-fifth">
+                    <sidebar-component></sidebar-component>
+                </div>
+                <div class="column">
+                    <filter-component></filter-component>
+                    <router-view></router-view></div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

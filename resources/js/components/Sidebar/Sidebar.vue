@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <ul class="menu-list">
-            <li><router-link to="/allThreads"><i class="fa fa-star-o" aria-hidden="true"></i> a All Threads</router-link></li>
+            <li><router-link to="/allThreads">All Threads</router-link></li>
             <li><router-link to="/popularthisweek">Popular This Week</router-link></li>
             <li><router-link to="/popularalltime">Popular All Time</router-link></li>
             <li><router-link to="/solved">Solved</router-link></li>
